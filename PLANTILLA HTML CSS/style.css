@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e7f7ff;
+    border-bottom: 1px solid #d1e7ee;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.icon {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+.btn-con {
+    display: ruby;
+    flex-direction: column; /* Alinea los botones en filas */
+    align-items: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espaciado entre los botones */
+    margin-top: 20px; /* Espaciado superior opcional */
+}
+
+.btn-ContactoWhatapps, .btn-agendar {
+    padding: 10px 15px;
+    background-color: #009fe3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    width: 200px; /* Define un ancho consistente */
+}
+
+.btn-ContactoWhatapps:hover, .btn-agendar:hover {
+    background-color: #007bb5;
+}
+
+.btn-ContactoWhatapps {
+    background-color: #25D366; /* Color verde para WhatsApp */
+}
+
+.btn-agendar {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #009fe3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-agendar:hover {
+    background-color: #007bb5;
+}
+
+.nav {
+    background-color: #ffffff;
+    border-top: 1px solid #d1e7ee;
+    border-bottom: 1px solid #d1e7ee;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #009fe3;
+    color: #fff;
+}
